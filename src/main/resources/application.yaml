@@ -1,13 +1,13 @@
 datasource:
   driverClassName: org.postgresql.Driver
-  url: jdbc:postgresql://192.168.99.100:32770/fonbet
-  username: postgres
-  password:
+  url: url
+  username: username
+  password: password
 
 selenium:
   driver:
     chrome:
-      path: /Users/kingreeve/Desktop/OTHER/fonbet/fonbet-observer/chromedriver
+      path: path-to-driver/chromedriver
 
 path:
   timeline: https://www.fonbet.ru/#!/bets/volleyball
